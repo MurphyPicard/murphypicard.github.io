@@ -4,27 +4,112 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>Ara's Portfolio Page</title>
   </head>
+
   <body>
 
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Ara's Portfolio Page</a>
-        <a href="sass.html">Python</a>
-        <a href="badges.html">Ruby</a>
-        <a href="collapsible.html">JavaScript</a>
-      </div>
-    </nav>
+    <div  class="navbar-fixed-top lll secondof2navbars">
+        <div class="container-fluid">
+            <div class="row">
+                  <div class="col-md-7 pull-left secondnavcontact">
+                    <p class="phone">
+                      <img src="https://img.clipartfest.com/b79e9257272ff09329575841f8ace8cd_phone-clip-art-phone-images-clip-art_450-597.png" alt="phone: ">
+                      401-749-4217 / ayaghsizian@gmail.com / YourCode.Ninja / CEO@YourCode.Ninja / Ara@YourCode.Ninja
+                    </p>
+                  </div>
 
-    <div id="div-one">
+                  <div class="col-md-5 pull-right secondnavbuttons buttons1">
+                      <div class="container-fluid buttons2">
+                        <a class="buttonLinks" href="https://www.facebook.com/salsaclassesnyc"><img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook"></a>
+                        <a class="buttonLinks" href="https://www.instagram.com/salsaclassesnyc/"><img src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" alt="Instagram"></a>
+                        <a class="buttonLinks" href="https://www.youtube.com/channel/UCjyobW9hg19KXBL0UwZbzAw"><img src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" alt="Youtube"></a>
+                        <a class="buttonLinks" href="https://www.yelp.com/biz/salsa-classes-nyc-manhattan"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yelp.svg/1024px-Yelp.svg.png" alt="Yelp"></a>
+                        <p class="bachata-width"></p>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar-fixed-top lll firstof2navbars">
+        <div class="container-fluid">
+            <div class="row">
+                  <div class="col-md-4 pull-left oneof4">
+                    <h1>
+                      <a href="#home" class="scroll salsa-heading">Ara Yaghsizian</a>
+                    </h1>
+                  </div>
+
+                  <div class="col-md-0 threeof4">
+                  </div>
+
+                  <div class="col-md-8 pull-right fourof4">
+                    <nav class="navbar">
+                      <div class="container-fluid">
+                        <p class="navbar-text"><a href="#about" class="scroll">Stuff about Me /</a></p>
+                        <p class="navbar-text"><a href="#languages" class="scroll">Languages and Stuff /</a></p>
+                        <p class="navbar-text"><a href="#projects" class="scroll">Projects and Stuff /</a></p>
+                        <p class="navbar-text"><a href="#other" class="scroll">Other Stuff </a></p>
+                      </div>
+                    </nav>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="takingspace" id="about"></h1>
+    <div class="main4" >
+
+      <h1>this is me</h1>
+      <img class="greenShirtPic" src="./images/picFromMattsHouse.jpg" alt="pic of Ara">
+      <h1 class="takingspace"></h1>
+
+      <h3>and this is my<img class="heartPic" src="./images/heart-icon.png" alt="pic of Heart"></h3>
+      <img src="./images/myHeart.JPG" alt="pic of My heart">
+      <h1 class="takingspace"></h1>
+
+      <h1>and I am a</h1>
+      <img src="./images/fullStackPic.jpg" alt="full stack of pancakes">
+      <h1>developer</h1>
+      
+    </div>
+
+    <h1 class="takingspace" id="languages"></h1>
+    <div class="main4" >
+      <ul>
+        <h4 class='languagesHeading' >Some of the languages and frameworks I'm familiar with...</h4>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+        <li>MongoDB</li>
+        <li>ExpressJS</li>
+        <li>AngularJS</li>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+        <li>VueJS</li>
+        <li>ToneJS</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <p>and</p>
+        <li>Ruby</li>
+        <li>...on Rails</li>
+      </ul>
+    </div>
+
+    <h1 class="takingspace" id="projects"></h1>
+    <div class="main4">
       <p>Play my <a href="https://murphypicard.github.io/Simon-the-game/">SIMON GAME</a> for a while.</p>
       <p>Check out this <a href="https://github.com/MurphyPicard/crypto-python3-">ENCRYPTION PROGRAM</a> I wrote.</p>
       <p>A full stack site called <a href="http://ara-justplay.herokuapp.com/">JustPlayIt!</a>  Are you in the mood to sing?</p>
+    </div>
 
+    <h1 class="takingspace" id="other"></h1>
+    <div class="main4">
       <h4>
         Links to <a href="https://github.com/MurphyPicard">Github</a> and
         <a href="https://www.linkedin.com/in/ara-yaghsizian">Linkedin</a> and my
@@ -34,13 +119,6 @@
 
 
     <footer><h4>Ara Yaghsizian  ayaghsizian@gmail.com  401-749-4217</h4></footer>
-
-
-
-
-
-
-
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>

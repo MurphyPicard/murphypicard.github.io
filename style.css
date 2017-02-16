@@ -1,42 +1,133 @@
 body {
-  background-image: url("http://wvs.topleftpixel.com/photos/west_skyline_night_orange_clouds.jpg");
-  background-size: 100%;
-  font-size: 24px;
+  /*background-image: url("https://prateekvjoshi.files.wordpress.com/2013/10/part-1.jpg");*/
+  /*background-size: 100%;*/
+  background-color: #ccc;
+  font-family: 'Lucida';
 }
-
-.nav-wrapper {
-  background-color: rgba(0,0,0,.4);
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
-  text-align: center;
-  font-size: 36px;
-  height: 80px;
-  color: #FFF;
+.lll{
+  background-color: rgba(200, 150, 0, .4);
+  width: 100%;
+  /*z-index: 1;*/
+}
+.firstof2navbars{
+  height: 50px;
+}
+.secondof2navbars{
+    position: relative;
+    top: 50px;
+    border: 2px solid rgba(200, 150, 0, 1);
+    height: 50px;
+    background-color: rgba(60, 45, 0, .7);
+}
+.container-fluid{
+margin: 10px;
 
 }
-
-#div-one {
-  background-color: rgba(0,0,0,.4);
-  background-size: 100%;
-  height: 300px;
-  text-align: center;
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
-  border-radius: 50%;
-  color: #FFF;
-}
-
-footer {
+.pull-left h1{
   margin: 0 auto;
-  background-color: rgba(0,0,0,.5);
-  width: 280px;
-  /*height: 120px;*/
-  text-align: center;
-  color: #FE5B35;
-  /*border-style: solid;
-  border-color: #FE5B35;
-  border-width: 1px;*/
+}
+.pull-left h1 .salsa-heading{
+  color: #FFF;
+  font-size: .8em;
+  text-decoration: none;
+  font-family: Lucida;
+  margin: 0 auto;
+}
+.pull-left h1 A:hover{
+  font-size: .82em;
+  color: #000;
+}
+.secondnavbuttons{ /* fb an stuff*/
+  text-align: right;
+}
+.phone img{
+  width: 20px;
+  margin: 0 auto;
+}
+.phone{
+  color: #FFF;
+  font-size: 1em;
+  margin: 0 auto;
 
 }
+/********* pageLinks ************/
+.navbar-text{
+  margin: 0px;
+  margin-right: 7px;
+  background-color: none;
+}
+.navbar-text .scroll{
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: 'Lucida Grande';
+  text-decoration: none;
+  margin-right: 3px;
+}
+@media screen and (max-width: 870px) {
+  .navbar-text .scroll{
+  font-size: .8em;
+  }
+}
+@media screen and (max-width: 770px) {
+  .navbar-text .scroll{
+  font-size: .7em;
+  }
+}
+@media screen and (max-width: 670px) {
+  .navbar-text .scroll{
+  font-size: .6em;
+  }
+}
+.navbar-text A:hover{
+  color: #161400;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 870px) {
+  .navbar-text A:hover{
+  font-size: .83em;
+  }
+}
+
+/********* buttonLinks **********/
+.buttonLinks img{
+  width: 30px;
+  margin: 0 auto;
+  margin-right: 7px;
+}
+.buttonLinks img:Hover{
+  width: 31px;
+}
+.bachata-width{
+  width: 50px;
+}
+
+
+.takingspace{
+  height: 70px;
+}
+.main4{
+  text-align: center;
+  margin: 0 auto;
+}
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ****/
+.greenShirtPic{
+  width: 40%;
+}
+.heartPic{
+  width: 10%;
+}
+
+/* LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES ******/
+ul{
+margin: auto;
+list-style-type: armenian;
+}
+.languagesHeading{
+  font-size: 2em;
+  text-decoration: underline;
+  
+}
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS ****/
+
+/* OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER ****/
