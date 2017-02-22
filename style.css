@@ -122,11 +122,14 @@ margin: 10px;
 ul{
 margin: auto;
 list-style-type: armenian;
+font-size: 1.5em;
 }
 .languagesHeading{
   font-size: 2em;
-  text-decoration: underline;
-  
+  text-decoration: none;
+}
+.languagesPic{
+  width: 50%;
 }
 /* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS ****/
 
