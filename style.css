@@ -147,3 +147,10 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 /* OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER ****/
+.bottomlinks{
+  font-size: 2em;
+}
+/*Footer **********************************************************************/
+footer{
+  text-align: center;
+}
