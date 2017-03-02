@@ -111,6 +111,18 @@ margin: 10px;
   margin: 0 auto;
 }
 /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ****/
+table {
+  margin: 0 auto;
+}
+td{
+  width: 40px;
+  height: 40px;
+}
+.cornernumber{
+background-color: rgba(200, 150, 0, .4);
+}
+
+
 .greenShirtPic{
   width: 40%;
 }
@@ -132,19 +144,23 @@ font-size: 1.5em;
   width: 50%;
 }
 /* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS ****/
-table {
+.tableofprojects{
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 75%;
     margin: auto;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 3px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-tr:nth-child(even) {
+.projectrow:nth-child(even) {
     background-color: #dddddd;
+}
+.thumb{
+  width: 40%;
+  margin: 0 auto;
 }
 /* OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER ****/
 .bottomlinks{
