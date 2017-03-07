@@ -159,12 +159,21 @@ td, th {
     background-color: #dddddd;
 }
 .thumb{
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
 }
 /* OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER ****/
 .bottomlinks{
   font-size: 2em;
+}
+.codewarsH{
+  font-size: 2em;
+}
+.codewarsA{
+  font-size: 2.2em;
+}
+.codewars a img{
+  width: 10%;
 }
 /*Footer **********************************************************************/
 footer{
