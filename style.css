@@ -10,7 +10,7 @@ body {
   /*z-index: 1;*/
 }
 .firstof2navbars{
-  height: 100px;
+  height: 96px;
 }
 .secondof2navbars{
     position: relative;
@@ -135,6 +135,10 @@ ul{
 margin: auto;
 list-style-type: armenian;
 font-size: 1.5em;
+}
+li{
+  font-family: 'Comic Sans MS';
+  font-size: 36px;
 }
 .languagesHeading{
   font-size: 2em;
