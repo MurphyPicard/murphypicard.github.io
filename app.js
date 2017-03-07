@@ -2,12 +2,8 @@ console.log('JS is linked');
 
 
 function isalpha(c) {
-    // return 'a'<= c <= 'z' || "A" <= c <= "Z";
-    return (( (c >= 'a') && (c <= 'z') ) || ( (c >= 'A') && (c <= 'Z') ));
-  }
-
-
-
+  return (( (c >= 'a') && (c <= 'z') ) || ( (c >= 'A') && (c <= 'Z') ));
+}
 function isdigit(c) {
   return ((c >= '0') && (c <= '9'));
 }
@@ -75,4 +71,11 @@ var Calculator = {
 
 function addIt ( sdfgsdfgsdfg, sdfgsdfg ){
   return sdfgsdfgsdfg + sdfgsdfg;
+}
+
+// other peoples functions that I should remember easily *******************
+
+//good use of map function
+function invert(array) {
+   return array.map( x => x === 0 ? x : -x);
 }
