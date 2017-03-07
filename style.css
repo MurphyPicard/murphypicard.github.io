@@ -179,6 +179,9 @@ td, th {
 .codewars img{
   width: 8%;
 }
+.codewars img:Hover{
+  width: 9%;
+}
 /*Footer **********************************************************************/
 footer{
   text-align: center;
