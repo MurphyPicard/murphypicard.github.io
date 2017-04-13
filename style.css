@@ -5,19 +5,12 @@ body {
   font-family: 'Lucida';
 }
 .lll{
-  background-color: rgba(200, 150, 0, .4);
+  background-color: rgba(200, 150, 0, .8);
   width: 100%;
   /*z-index: 1;*/
 }
 .firstof2navbars{
-  height: 96px;
-}
-.secondof2navbars{
-    position: relative;
-    top: 50px;
-    border: 2px solid rgba(200, 150, 0, 1);
-    height: 50px;
-    background-color: rgba(60, 45, 0, .7);
+  height: 15%;
 }
 .container-fluid{
 margin: 10px;
