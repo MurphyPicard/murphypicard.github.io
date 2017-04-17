@@ -6,46 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <script src="https://use.fontawesome.com/74f88b37c3.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>Ara's Portfolio Page</title>
   </head>
 
   <body>
 
-    <div class="navbar-fixed-top mainNavbar">
-        <div class="container-fluid">
-
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                  <h1>
-                    <a href="#home" class="myName">Ara David Yaghsizian</a>
-                  </h1>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                  <p class="myContactInfo">
-                    <img src="https://img.clipartfest.com/b79e9257272ff09329575841f8ace8cd_phone-clip-art-phone-images-clip-art_450-597.png" alt="phone: ">
-                    401-749-4217 / ayaghsizian@gmail.com / YourCode.Ninja
-                    <!--CEO@YourCode.Ninja / Ara@YourCode.Ninja-->
-                  </p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                  <nav class="navbar">
-                    <div class="container-fluid">
-                      <p class="navbar-text"><a href="#about" class="scroll">About /</a></p>
-                      <p class="navbar-text"><a href="#languages" class="scroll">Languages /</a></p>
-                      <p class="navbar-text"><a href="#projects" class="scroll">Projects /</a></p>
-                      <p class="navbar-text"><a href="#other" class="scroll">Links </a></p>
-                    </div>
-                  </nav>
-                </div>
-
-
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#home" class="navbar-brand">Ara David Yaghsizian</a>
         </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Me<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="divider"></li>
+                <li class="dropdown-header">Contact Info</li>
+                <li>Email: ayaghsizian@gmail.com</li>
+                <li>Phone: 401-749-4217</li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Links</li>
+                <li class="dropdown-header"><a href="http://YourCode.Ninja">                       Linkedin: http://YourCode.Ninja</a></li>
+                <li class="dropdown-header"><a href="https://github.com/MurphyPicard">             Github: https://github.com/MurphyPicard</a></li>
+                <li class="dropdown-header"><a href="https://www.codewars.com/users/MurphyPicard"> Codewars: https://www.codewars.com/users/MurphyPicard</a></li>
+                <li class="dropdown-header"><a href="https://resume.creddle.io/resume/8mg8pbdcpnn">Resume: https://resume.creddle.io/resume/8mg8pbdcpnn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+    <!--End of Navbar -->
 
     <h1 class="takingspace" id="home"></h1>
     <div class="main4" >
@@ -205,10 +209,29 @@
     </div>
     <br>
 
-    <footer><h4 class="bottomlinks">ayaghsizian@gmail.com  |  401-749-4217</h4></footer>
-    <br><br><br><br><br>
+
+
+
+
+
+
+    <!--Beginnning of Footer-->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>ayaghsizian@gmail.com | 401-749-4217</p>
+        </div>
+        <div class="navbar-text pull-right">
+          <a href="https://github.com/MurphyPicard"><i class="fa fa-github-square fa-2x"></i></a>
+          <a href="http://YourCode.Ninja"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works"><i class="fa fa-free-code-camp fa-2x"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <!-- this order matters-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
