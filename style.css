@@ -21,15 +21,25 @@ td{
 .cornernumber{
 background-color: rgba(200, 150, 0, .4);
 }
-
+h3{
+  padding: 1px 40px 1px 40px;
+}
+h1{
+  padding: 1px 40px 1px 40px;
+}
 .greenShirtPic{
-  width: 40%;
+  width: 55%;
 }
-.heartPic{
-  width: 10%;
+h1 > .heartPic{
+  width: 30%;
 }
-
+.myHeartPic{
+  width: 55%;
+}
 /* LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES ******/
+.pancakesPic{
+  width: 38%;
+}
 ul{
 margin: auto;
 list-style-type: armenian;
